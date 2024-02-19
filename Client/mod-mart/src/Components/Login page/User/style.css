@@ -1,0 +1,68 @@
+
+
+/* login css */
+
+.login-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #91bdf8;
+}
+.head{
+font-size: larger;
+font-weight: bolder;
+color: black;
+margin-bottom: 3rem;
+
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-field {
+  margin-bottom: 1rem;
+  margin-left: 3rem;
+
+}
+
+label {
+  margin-bottom: 0.4rem;
+
+}
+
+input {
+  padding: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.log {
+  padding: 0.5rem;
+  margin-left: 1.5rem;  
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: larger ;
+}
+
+.log:hover {
+  background-color: #b30009;
+}
+
+.error {
+  color: red;
+  margin-bottom: 1rem;
+}
+.dont,.si{
+  margin-left: 1.4rem;
+  margin-top: 2rem;
+}
+.si:hover{
+  color: #b30009;
+}
+
